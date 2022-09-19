@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-export const App = function() {
+export const Count = function() {
     const [count, setCount] = React.useState(0)
 
     console.log('Component rendered')
@@ -11,8 +11,6 @@ export const App = function() {
     const addCount = function() {
         setCount(prevCount => prevCount + 1)
     }
-
-
 
     // useEffect takes in two arguments, the first is required, the second is optional but almost always is included
     // first argument is a callback function
