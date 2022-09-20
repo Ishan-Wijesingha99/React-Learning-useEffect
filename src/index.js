@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App } from './components/App';
 import { Count } from './components/Count';
 import { Fetch } from './components/Fetch';
+import { WindowTracker } from './components/WindowTracker';
 import './index.css'
 
 
@@ -11,7 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Count /> */}
-    <Fetch />
+    {/* <Fetch /> */}
+    <App />
   </React.StrictMode>
 )
 
